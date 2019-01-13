@@ -4,10 +4,18 @@
 
 class Programator : public Angajat {
 public:
-	tuple <string, string, bool> Proiect();
+
+	struct Project {
+	public:
+		string NumeProiect;
+		string Data;
+		bool Starea;
+	};
+	Project proiect;
 	string DataDeInceput;
 
-	Programator(string numeProiect, string data, bool stare, string DataDeinceput);
+	Programator();
+	Programator(string nume, string prenume, string CNP, string CodAngajat, string numeProiect, string data, bool stare, string DataDeinceput, string post);
 	void Afisare();
 	~Programator();
 

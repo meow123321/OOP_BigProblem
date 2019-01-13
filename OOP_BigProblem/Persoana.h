@@ -13,5 +13,6 @@ public:
 
 	Persoana(string nume, string prenume, string CNP);
 	virtual void Afisare();
+	Persoana();
 	~Persoana();
 };

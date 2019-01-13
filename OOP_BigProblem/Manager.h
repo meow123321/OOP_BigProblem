@@ -7,6 +7,7 @@ public:
 	vector<Angajat> Subordonati;
 
 	Manager();
-	void Afisare();
+	Manager(string nume, string preunme, string CNP, string CodAngajat, string post);
+	void AfisareSubordonati();
 	~Manager();
 };

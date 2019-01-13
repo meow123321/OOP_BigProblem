@@ -12,4 +12,5 @@ void Persoana::Afisare() {
 	cout << "CNP: " << this->CNP << endl;
 }
 
+Persoana::Persoana(){}
 Persoana::~Persoana(){}

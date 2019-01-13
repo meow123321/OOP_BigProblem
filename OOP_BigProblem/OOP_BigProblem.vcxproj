@@ -116,12 +116,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Angajat.h" />
+    <ClInclude Include="AngajatVanzari.h" />
+    <ClInclude Include="Companie.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Persoana.h" />
     <ClInclude Include="Programator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Angajat.cpp" />
+    <ClCompile Include="AngajatVanzari.cpp" />
+    <ClCompile Include="Companie.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Persoana.cpp" />

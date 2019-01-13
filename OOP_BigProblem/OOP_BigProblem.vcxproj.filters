@@ -27,6 +27,12 @@
     <ClInclude Include="Programator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AngajatVanzari.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Companie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Persoana.cpp">
@@ -42,6 +48,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Programator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngajatVanzari.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Companie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
